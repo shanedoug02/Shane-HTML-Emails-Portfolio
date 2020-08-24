@@ -1,10 +1,313 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Colmar Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+        <div class="desktop" id="header-desktop">
+            
+                <div id="logoImage-Name"> 
+                  <li id="logo"><img src="colmar-images/ic-logo.svg" alt="logo"></li>
+                  <li id="logoName1"><h3>Colmar</h3></li>
+                  <li id="logoName2"><h3>Academy</h3></li>
+                </div>
+
+                <div id="menuWords">       
+                        <ul>
+                            <li><a href=""><p>On Campus</p></a></li>
+                            <li><a href=""><p>Online</p></a></li>
+                            <li><a href=""><p>Sign In</p></a></li>
+                        </ul>    
+                </div>
+
+        </div> 
+        
+        <div class="mobile" id="header-mobile">
+                    
+                        <ul>
+                            <li><img src="colmar-images/ic-logo.svg"></li>
+                            <li><img src="colmar-images/ic-on-campus.svg"></li>
+                            <li><img src="colmar-images/ic-online.svg"></li>
+                            <li><img src="colmar-images/ic-login.svg"></li>
+                        </ul>    
+                       
+        </div>
+    </header>
+<main>
+<!--  
+/////////////////////////////////////////////////
+////////////////////////////////////////////////
+
+Section 1
+
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+-->    
+    <section id="section1">
+            <div id="leftside1">
+                <img id="bannerImg" src="colmar-images/banner.jpg" alt="3 students reading together">
+            </div>
+            <div id="rightside1">
+               <h1>Learn something new everyday</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               <button>Start Here</button>
+            </div>
+    </section>
+
+<!--  
+/////////////////////////////////////////////////
+////////////////////////////////////////////////
+
+Section 2
+
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+-->        
+
+    <section id="section2">
+            <div id="leftside" class="desktop">
+               <div>
+                    <img id="infoImg" src="colmar-images/information-main.jpg">
+                </div>
+                <div id="wordsUnderImg">
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <p id="dummyQuote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, numquam. A amet similique ipsam non, perspiciatis cupiditate quod, eligendi officiis dolores iusto nulla rem voluptate minima earum inventore, eveniet veniam?"</p>
+                    <p id="Emanuel">Emanuel, Sr Strategist at Hiring.com</p>
+                </div>        
+            </div>
+
+
+            <div id="rightside">
+                <div class="rectangles">
+                    <div class="imgContainer">
+                        <img class="desktop" id="image1-desktop"  src="colmar-images/information-orientation.jpg" alt="students walking">
+                        <img class="mobile" id="image1-mobile" src="colmar-images/information-orientation-mobile.jpg">
+                    </div>    
+                    <div class="wordsContainer">
+                        <h2>Orientation date</h2>
+                        <p class="mid-p">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href=""><p class="read">Read More</p></a>
+                    </div>
+                </div>
+
+                <div class="rectangles">    
+                    <div class="imgContainer">
+                        <img class="desktop" id="image2-desktop" src="colmar-images/information-campus.jpg" alt="lounge area">
+                        <img class="mobile" id="image2-mobile" src="colmar-images/information-campus-mobile.jpg">
+                    </div>    
+                    <div class="wordsContainer">
+                        <h2>Our campus</h2>
+                        <p class="mid-p">Find which campus is close by you</p>
+                        <a href=""><p class="read">Read More</p></a>
+                    </div>
+                </div>    
+
+                <div class="rectangles" id="gray-rect">
+                    <div class="imgContainer">
+                        <img class="desktop" id="image3-desktop" src="colmar-images/information-guest-lecture.jpg" alt="featured lecturer">
+                        <img class="mobile" id="image3-mobile" src="colmar-images/information-guest-lecture-mobile.jpg">
+                    </div>
+                    
+                    <div class="wordsContainer">
+                            <h2>Our guest lecture</h2>
+                            <p class="mid-p">Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <a href=""><p class="read">Read More</p></a>
+                    </div>
+                </div>
+            </div>        
+    </section>
+
+<!--  
+/////////////////////////////////////////////////
+////////////////////////////////////////////////
+
+Section 3
+
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+-->        
+           
+    <h2 id="start">Start Learning</h2>   
+    <section id="section3">
+         
+
+        <div class="desktop">
+            <div id="lg-container">
+                <div class="photo-text-container">
+                    <div class="photo-container">
+                        <img class="photo" src="colmar-images/course-software.jpg">
+                    </div>
+                    <div class="text-container">
+                        <div class="text"> 
+                            <h2>Software Engineering</h2>
+                            <p>COURSES</p>
+                            <p>Web Development, Mobile Development, iOT, APIs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-text-container">
+                    <div class="photo-container">
+                        <img class="photo" src="colmar-images/course-computer-art.jpg">
+                    </div>
+                    <div class="text-container">
+                        <div class="text"> 
+                            <h2>Computer Art</h2>
+                            <p>COURSES</p>
+                            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="photo-text-container">
+                    <div class="photo-container">
+                        <img class="photo" src="colmar-images/course-design.jpg">
+                    </div>
+                    <div class="text-container">
+                        <div class="text">    
+                            <h2>Design</h2>
+                            <p>COURSES</p>
+                            <p>User Experience Design, User Research, Visual Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-text-container">
+                    <div class="photo-container">
+                        <img class="photo" src="colmar-images/course-data.jpg">
+                    </div>
+                    <div class="text-container">
+                        <div class="text"> 
+                            <h2>Data</h2>
+                            <p>COURSES</p>
+                            <p>Data Science, Big Data, SQL, Data Visualization</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="photo-text-container">
+                    <div class="photo-container">
+                        <img class="photo" src="colmar-images/course-business.jpg">
+                    </div>
+                    <div class="text-container">
+                        <div class="text">     
+                            <h2>Business</h2>
+                            <p>COURSES</p>
+                            <p>Product Development, Business Development, Startup</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="photo-text-container">
+                    <div class="photo-container">
+                        <img class="photo" src="colmar-images/course-marketing.jpg">
+                    </div>
+                    <div class="text-container">
+                        <div class="text"> 
+                            <h2>Marketing</h2>
+                            <p>COURSES</p>
+                            <p>Analytics, Content Marketing, Mobile Marketing</p>
+                        </div>    
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="mobile" id="start-learning-mobile">
+            <h2>Software Engineering</h2>
+            <h2>Computer Art</h2>
+            <h2>Design</h2>
+            <h2>Data</h2>
+            <h2>Business</h2>
+            <h2>Marketing</h2>
+
+        </div>
+
+
+    </section>
+
+<!--  
+/////////////////////////////////////////////////
+////////////////////////////////////////////////
+
+Section 4
+
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+-->        
+    <h2 id="thesis">Thesis Exhibit</h2>
+    <div class="desktop">
+        <section id="section4">
+        
+            <div id="leftside">
+                <div id="video-container">
+                    <video controls>
+                        <source src="colmar-video/thesis.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="wordsUnderVid">
+                    <h2>Reimagine Urban</h2>
+                    <p id="dummyQuote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, numquam. A amet similique ipsam non, perspiciatis cupiditate quod, eligendi officiis dolores iusto nulla rem voluptate minima earum inventore, eveniet veniam?"</p>
+                </div>        
+            </div>
+
+
+            <div id="rightside4">
+                <div class="rectangles" id="gray-rect">
+                    <div class="imgContainer">
+                        <img id="image-upper" src="colmar-images/thesis-fisma.jpg" alt="students walking">
+                    </div>    
+                    <div class="wordsContainer4">
+                        <h2>Fisma: Design And Prototype</h2>
+                        <p>Designer showcase of new prototype product</p>
+                    </div>
+                </div>
+
+                <div class="rectangles">    
+                    <div class="imgContainer">
+                        <img id="image2-desktop" src="colmar-images/thesis-now-and-then.jpg" alt="lounge area">
+                    </div>    
+                    <div class="wordsContainer4">
+                        <h2>Now and then</h2>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>    
+
+                
+            </div> 
+        </section> 
+        
+            
+           
+    </div>
+    <div class="mobile" id="mobile-video">
+        <video controls>
+            <source src="colmar-video/thesis.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</main>
+
+<footer>
+    <div>
+        <p>&copy; 2020 Colmar Academy. All rights reserved</p>
+    </div>
+    <div>
+        <ul>
+            <li>Terms</li>
+            <li>Privacy</li>
+        </ul>
+    </div>    
+</footer>
+
+   
+    
 </body>
 </html>
