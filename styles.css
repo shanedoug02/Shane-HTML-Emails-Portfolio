@@ -6,10 +6,48 @@ body {
     
 }
 
+@media screen and (max-width: 700px) {
+    .headline {
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .headline {
+        font-size: 18px;
+    }
+       
+}
+
+@media screen and (max-width: 500px) {
+    .headline {
+        font-size: 20px;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    
+       
+}
+
+@media screen and (max-width: 311px) {
+    .headline {
+        font-size: 18px;
+        text-align: center;
+        padding-right: 40px;
+        padding-top: 0px;
+    }
+
+    
+       
+}
+
+
 #heroContainer {
     background-color: black;
     
-    height: 500px;
+    height: 475px;
     width: 100%;
     margin: 0 auto;
     position: absolute;
@@ -57,20 +95,12 @@ body {
     
     
 } 
-/* width: 651px;
-    align-items: center;
-    outline: 1px solid green;  */
 
-.flexText {
-    align-content: center;
-    
-    
-    
-}    
+
 
 #portfolioSection {
     margin: 0 auto;
-    top: 312px;
+    top: 250px;
     z-index: 1;
     position: relative;
     
@@ -80,7 +110,7 @@ body {
     color: white;
     text-align: center;
     margin: 0 auto;
-    padding: 20px 0px 0px 0px;
+    padding: 60px 10px 0px 10px;
     background-color:  rgb(39, 39, 54);
     
 }
